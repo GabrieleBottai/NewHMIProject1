@@ -1,0 +1,41 @@
+Name: DigitalAlarms
+Id: g=b557d92823388adeda8b3b1d8fc02644
+Type: FolderType
+Children:
+- Name: DigitalAlarmWithArea
+  Id: g=7af5f9e6b4853bea718df16256ba7caa
+  Supertype: OffNormalAlarmController
+  Children:
+  - Class: Reference
+    Target: ns=11;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=83
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=eaa287f3a5ccbefed86aaa3c0b8fc5a1
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=119c18a7cb3e9d7a44f21f329ef528f5
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: LastEvent
+    Id: g=5711de1fe5d95da0804d344f309af17c
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Type: GeneratesEvent
+    Target: g=d659fe202ce8ea55285dcb63a415ecc7
+  - Name: vArea
+    Id: g=86d8c04b450ce240be53271f22e57ebf
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0

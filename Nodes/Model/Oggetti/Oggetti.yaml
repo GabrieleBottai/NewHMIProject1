@@ -1,0 +1,62 @@
+Name: Oggetti
+Type: FolderType
+Children:
+- Name: Oggetto
+  Id: g=9d8a0df57aaeb68e88421961bec9bc8f
+  Supertype: BaseObjectType
+  DisplayName: {"LocaleId":"it-IT","Text":"MM000"}
+  Description: {"LocaleId":"it-IT","Text":""}
+  Children:
+  - Name: Value
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: bVar
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: MM1
+  Id: g=b3e7bd89b82d93b90ceeeb4c147bd5be
+  Type: Oggetto
+  DisplayName: {"LocaleId":"it-IT","Text":"MM001"}
+  Children:
+  - Name: Value
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Variabili/Speed1"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: bVar
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: MM2
+  Type: Oggetto
+  DisplayName: {"LocaleId":"it-IT","Text":"MM002"}
+  Children:
+  - Name: Value
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Variabili/Speed2"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: bVar
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
