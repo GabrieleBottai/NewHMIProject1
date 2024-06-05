@@ -1,0 +1,19 @@
+Name: Recipe
+Id: g=fb7b9c80e4c83f2f6399501ea6e4d2ef
+Type: FolderType
+Children:
+- Name: vRecipe1
+  Id: g=f28092ffb2949bd9fb237ef3ed4cd60a
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: vRecipe2
+  Id: g=17c43ee9f4e95dc5ee39a9b1b2946f76
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: vRecipe3
+  Id: g=856b5ae0bc1cbe610253743a5778a84e
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

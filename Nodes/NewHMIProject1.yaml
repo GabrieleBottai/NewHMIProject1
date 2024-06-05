@@ -16,6 +16,11 @@ Children:
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
+  - Name: MeasurementSystemMap
+    Type: BaseDataVariableType
+    DataType: MeasurementSystemMapItem
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
 - Name: Authentication
   Type: PropertyGroup
   Children:
@@ -65,3 +70,12 @@ Children:
 - File: Translations/Translations.yaml
 - File: Retentivity/Retentivity.yaml
 - File: AlarmTypes/AlarmTypes.yaml
+- Name: BaseRecipe
+  Type: Alias
+  DataType: NodeId
+  Value: "/Objects/NewHMIProject1/Recipes/BaseRecipe/EditModel"
+  Children:
+  - Name: Kind
+    Type: PropertyType
+    DataType: NodeId
+    Value: "/Objects/NewHMIProject1/Recipes/BaseRecipe/EditModel"

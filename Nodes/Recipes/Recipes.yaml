@@ -1,2 +1,92 @@
 Name: Recipes
 Type: RecipesCategoryFolder
+Children:
+- Name: BaseRecipe
+  Id: g=5c59006263b8fea4d14d4f4cfedb0f18
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: vRecipe1
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: vRecipe2
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: vRecipe3
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+  - Class: Reference
+    Target: ns=23;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=60
+    Direction: Forward
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/NewHMIProject1/DataStores/BaseDB"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/NewHMIProject1/Model/Recipe"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: EditModel
+    Id: g=555b5be6eb1f44703325a14efd12412d
+    Type: BaseObjectType
+    Children:
+    - Name: vRecipe1
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: vRecipe2
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: vRecipe3
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0

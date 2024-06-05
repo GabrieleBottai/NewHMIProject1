@@ -9,7 +9,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [13,3],
+    "Dimensions": [43,3],
     "Body": [
      "","en-US","it-IT",
      "Acknowledge","Acknowledge","Riconosci",
@@ -23,6 +23,36 @@ Children:
      "Active","Active","Attivo",
      "Acked","Acked","Riconosciuto",
      "Confirmed","Confirmed","Confermato",
-     "Severity","Severity","Gravità"
+     "Severity","Severity","Gravità",
+     "Save","Save","Salva",
+     "Delete","Delete","Elimina",
+     "RecipeControllerDeleted","deleted","eliminata",
+     "RecipesEditorNotFound","not found","non trovato",
+     "RecipesEditorNotSet","is not set","non è impostato",
+     "Load","Load","Carica",
+     "RecipeControllerSaved","saved","salvata",
+     "RecipeControllerCreatedAndSaved","created and saved","creata e salvata",
+     "Apply","Apply","Applica",
+     "RecipeControllerEmptyRecipeName","Recipe name is empty","Il nome della ricetta è vuoto",
+     "RecipeControllerRecipe","Recipe","Ricetta",
+     "RecipeControllerRecipeApplied","Recipe applied","Ricetta applicata",
+     "RecipeControllerRecipeLoaded","Recipe loaded","Ricetta caricata",
+     "RecipesEditorRecipeSchemaNotFound","RecipeSchema variable not found","Variabile RecipeSchema non trovata",
+     "RecipesEditorRecipeSchemaNotSet","RecipeSchema not set","RecipeSchema non impostato",
+     "RecipesEditorRecipeNotFound","Recipe not found","Ricetta non trovata",
+     "RecipesEditorNotARecipe","is not a recipe","non è una ricetta",
+     "RecipesEditorStoreOfSchema","Store of schema","L'archivio dello schema",
+     "RecipesEditorStore","Store","Archivio",
+     "RecipesEditorNotAStore","is not a store","non è un archivio",
+     "RecipesEditorEditModelOfSchema","EditModel of schema","EditModel dello schema",
+     "MM000","MM000","MM000",
+     "MM001","MM001","MM001",
+     "MM002","MM002","MM002",
+     "Message_{0}","Message_{0}","Message_{0}",
+     "Allarme attivo in Area: {0}","Active Alarm in Area: {0}","Allarme attivo in Area: {0}",
+     "Screen1_Pls1","Open PopUp","Apri PopUp",
+     "Area","Area","Area",
+     "DigitalAlarmWithArea","DigitalAlarmWithArea","DigitalAlarmWithArea",
+     "Pre-Allarme attivo in Area: {0}","Active Pre-Alarm in Area: {0}","Pre-Allarme attivo in Area: {0}"
     ]
    }

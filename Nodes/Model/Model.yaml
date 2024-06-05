@@ -3,3 +3,4 @@ Type: ModelCategoryFolder
 Children:
 - File: Variabili/Variabili.yaml
 - File: Oggetti/Oggetti.yaml
+- File: Recipe/Recipe.yaml

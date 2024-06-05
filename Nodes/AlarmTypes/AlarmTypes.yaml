@@ -4,7 +4,7 @@ Children:
 - Name: AlarmType_DigitalAlarmWithArea
   Id: g=d659fe202ce8ea55285dcb63a415ecc7
   Supertype: OffNormalAlarmType
-  DisplayName: {"LocaleId":"","Text":"DigitalAlarmWithArea"}
+  DisplayName: {"NamespaceIndex":16,"TextId":"DigitalAlarmWithArea"}
   Children:
   - Name: NormalState
     Type: PropertyType

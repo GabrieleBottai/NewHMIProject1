@@ -67,3 +67,7 @@ Children:
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
+- Name: vAbilPreAlarm
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false

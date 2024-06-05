@@ -4,7 +4,7 @@ Children:
 - Name: Oggetto
   Id: g=9d8a0df57aaeb68e88421961bec9bc8f
   Supertype: BaseObjectType
-  DisplayName: {"LocaleId":"it-IT","Text":"MM000"}
+  DisplayName: {"NamespaceIndex":16,"TextId":"MM000"}
   Description: {"LocaleId":"it-IT","Text":""}
   Children:
   - Name: Value
@@ -18,7 +18,7 @@ Children:
 - Name: MM1
   Id: g=b3e7bd89b82d93b90ceeeb4c147bd5be
   Type: Oggetto
-  DisplayName: {"LocaleId":"it-IT","Text":"MM001"}
+  DisplayName: {"NamespaceIndex":16,"TextId":"MM001"}
   Children:
   - Name: Value
     Type: BaseDataVariableType
@@ -40,7 +40,7 @@ Children:
     Value: false
 - Name: MM2
   Type: Oggetto
-  DisplayName: {"LocaleId":"it-IT","Text":"MM002"}
+  DisplayName: {"NamespaceIndex":16,"TextId":"MM002"}
   Children:
   - Name: Value
     Type: BaseDataVariableType

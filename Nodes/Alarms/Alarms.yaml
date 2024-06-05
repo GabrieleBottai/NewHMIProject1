@@ -64,7 +64,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ReferenceType: HasParameter
-        Value: {"LocaleId":"it-IT","Text":"Allarme attivo in Area: {0}"}
+        Value: {"NamespaceIndex":16,"TextId":"Allarme attivo in Area: {0}"}
       - Name: ns=3;Source0
         Id: g=ec5c710a3fe400fd0e43fee48b074c65
         Type: BaseDataVariableType
@@ -94,3 +94,99 @@ Children:
     DataType: Boolean
     AccessLevel: Read
     Value: false
+- Name: DigitalAlarmWithArea2
+  Id: g=3831377ad45f0f67094a484711764662
+  Type: DigitalAlarmWithArea
+  Children:
+  - Class: Reference
+    Target: ns=11;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=83
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=d05311a225279751a05da4c0f68307f1
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=288907626509f522bcbddf8960999303
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=2d4ab9dba7086b091707949e524060ec
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Variabili/vAbilPreAlarm"
+      Children:
+      - Name: Mode
+        Id: g=61fea64f3031182a967752ee94048d3e
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=606620a6cf5c0ba68244c3ee61271088
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: vArea
+    Id: g=8976d7d7b4d1b25e8903698c78fcc3fe
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 5
+  - Name: Message
+    Id: g=687ae9a60ab17fb967d11ed6d2de977e
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: FormattatoreStringa1
+      Id: g=f390caf3f065e5347a6cc5290616c830
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Id: g=76cbfadc4362bb955e924b4d8cf263f5
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"NamespaceIndex":16,"TextId":"Pre-Allarme attivo in Area: {0}"}
+      - Name: ns=3;Source0
+        Id: g=f68ab62e5eaf35bdfa2f96f7c916fdbe
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=6ced1b7ff85ed2410c567dfaa0fe92d9
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../vArea"
+          Children:
+          - Name: IsPull
+            Id: g=476a464534ecd8c5b5cf176a238a9d7b
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Id: g=1344f1d6d70bb2fd5932a7cb61d2d0a9
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Active
+    Id: g=34ea673ea4756015c8910a8ec5297b17
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false
+  - Name: Severity
+    Id: g=2e6118e97ccca95dbfcfce1b6ef408da
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 2
